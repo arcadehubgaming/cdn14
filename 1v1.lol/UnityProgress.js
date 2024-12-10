@@ -3,7 +3,8 @@ function UnityProgress(gameInstance, progress) {
     return;
   if (!gameInstance.logo) {
     gameInstance.logo = document.createElement("div");
-    gameInstance.logo.className = "logo " + gameInstance.Module.splashScreenStyle;
+    gameInstance.logo.className = "arcadehub-originals";
+    gameInstance.logo.innerHTML = "ArcadeHub Originals: 1v1.LOL Loading...";
     gameInstance.container.appendChild(gameInstance.logo);
   }
   if (!gameInstance.progress) {    
